@@ -29,6 +29,12 @@ export class AppController {
     );
   }
 
+  @Get('/commit')
+  getAllCommit(){
+    return 'hola'
+    
+  }
+
   @Get()
   getHello(): string {
     return this.appService.getHello();
