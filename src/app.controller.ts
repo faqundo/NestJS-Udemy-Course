@@ -31,7 +31,7 @@ export class AppController {
 
   @Get('/commit')
   getAllCommit(){
-    return 'chau'
+    return 'pepe'
     
   }
 
